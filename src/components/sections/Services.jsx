@@ -1,4 +1,5 @@
-import React from 'react';
+import featureImage1 from '../../assets/features/feature-1.png';
+import featureImage2 from '../../assets/features/feature-2.png';
 import FeatureSection from './FeatureSection';
 
 const Services = () => {
@@ -11,7 +12,7 @@ const Services = () => {
         'Development workflow',
         'Knowledge management'
       ],
-      image: '/src/assets/features/feature-1.png',
+      image: featureImage1,
       imageAlt: 'dashboard feature image',
       isReversed: false
     },
@@ -25,7 +26,7 @@ const Services = () => {
         'Limitless business automation',
         'Knowledge management'
       ],
-      image: '/src/assets/features/feature-2.png',
+      image: featureImage2,
       imageAlt: 'feature image 2',
       isReversed: true
     }

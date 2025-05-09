@@ -1,6 +1,7 @@
 import React from 'react';
 import GitHubIcon from '../icons/GitHubIcon';
 import FigmaIcon from '../icons/FigmaIcon';
+import heroImage from '../../assets/hero.png';
 
 const Hero = () => {
   return (
@@ -34,7 +35,7 @@ const Hero = () => {
           </div>
         </div>
         <div className=" lg:col-span-5 lg:flex">
-          <img src="./src/assets/hero.png" alt="hero image" />
+          <img src={heroImage} alt="hero image" />
         </div>
       </div>
     </section>
